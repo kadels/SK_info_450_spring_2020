@@ -9,7 +9,7 @@ class shape{
 };
 class circle : public shape{
     private:
-    double radius;
+    int radius;
   public:
     circle(int radius): radius(radius){}
     int get_perimeter_length(){return 2 * PI * radius;}
